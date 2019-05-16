@@ -1,0 +1,14 @@
+constants yellow 0.05 0.05 0 0.5 0.5 0.4 0.7 0.7 0.04
+constants black_rubber 0.05 0.5 0.7 .05 .5 .7 0.05 0.5 0.7
+push
+move 250 250 0
+rotate x 90
+sphere yellow -100 150 0 50
+sphere yellow 100 150 0 50
+torus black_rubber 100 150 0 20 85
+torus black_rubber -100 150 0 20 85
+sphere black_rubber -100 200 0 25
+sphere black_rubber 100 200 0 25
+push
+display
+save eyes.png
